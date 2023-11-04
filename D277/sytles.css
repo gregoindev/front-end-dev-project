@@ -1,0 +1,92 @@
+/* IMAGES */
+
+.banner {
+  background-image: url("imgs/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.banner-olympia {
+  background-image: url("imgs/olympia.jpg");
+  background-size: cover;
+  background-position: 25% 35%;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.banner-seattle {
+  background-image: url("imgs/seattle.jpg");
+  background-size: cover;
+  background-position: 25% 20%;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.banner-redmond {
+  background-image: url("imgs/redmond.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+/* TEXTS */
+
+#copyright {
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.facts,
+li {
+  padding: 4px;
+}
+
+.events .list-group-item {
+  padding-top: 20px;
+}
+
+.navbar li:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.olympia {
+  font-family: "Great Vibes", cursive;
+  text-shadow: 0 0 5px rgba(73, 209, 209, 0.671);
+  font-size: 100px;
+}
+
+.seattle {
+  font-family: "Great Vibes", cursive;
+  text-shadow: 0 0 25px rgba(64, 51, 184, 0.671);
+  font-size: 100px;
+}
+
+.redmond {
+  font-family: "Great Vibes", cursive;
+  text-shadow: 0 0 5px rgba(73, 209, 209, 0.671);
+  font-size: 100px;
+}
+
+/* FLOATS */
+
+footer {
+  position: relative;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  position: absolute;
+  right: 10px;
+  bottom: -50px;
+}
